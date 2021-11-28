@@ -1,5 +1,20 @@
 # MechaCar_Statistical_Analysis
 
+Background and Purpose:
+
+ Jeremy woring with AutoRUs. Upgrade decision making process. internal collections and knowledge of product, has been selected as primary analyst for the companies' data analytics team. Data analytics team is incharge of performing retrospective analysis of historical data, and analytical verification of current automotive specifications. And study design of future product testing. Automobiel launches successful utilize datan analytics in every decision making process. Anayses contain statistical backbone, quantitative matric and clear interpretation of results to keep upper management happy. Data team has 5 members who only know how to program using r. Jeremy has to learn a new language. I will help jeremy perform statistical tests using the r programming language. provide summary statistics for different variables, visualization for different datasets. And interpretation of statistical test results. Propose own study design, hypothesis and analysis workflow, in order to make autorus manufacturing process better.
+
+A few weeks after starting his new role, Jeremy is approached by upper management about a special project. AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called on Jeremy and the data analytics team to review the production data for insights that may help the manufacturing team.
+
+In this challenge, you’ll help Jeremy and the data analytics team do the following:
+
+Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
+Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
+Run t-tests to determine if the manufacturing lots are statistically different from the mean population
+Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
+
+A few weeks after starting his new role, Jeremy is approached by upper management about a special project. AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called on Jeremy and the data analytics team to review the production data for insights that may help the manufacturing team.
+
 Deliverable 1: From the above output we can see that:
 
  ![](Images/Multiple%20Linear%20Regression.png)
@@ -27,10 +42,15 @@ Standard deviation is one of the key methods that analysts, portfolio managers, 
 Securities that are close to their means are seen as less risky, as they are more likely to continue behaving as such. Securities with large trading ranges that tend to spike or change direction are riskier. In investing, risk in itself is not a bad thing, as the riskier the security, the greater potential for a payout.
 
 Deliverable 3:
+
 ![](Images/T-test%20for%20all%20lots.png)
+
 ![](Images/lot1.png)
+
 ![](Images/lot2.png)
+
 ![](Images/lot3.png)
 
+Deliverable 4:
 
 When it comes to comparing the MechaCar to its competition, the company should consider using an ANOVA test to compare the MechaCar in various categories that customers would care about: cost, city and highway fuel efficiency, horse power, safety rating, maintenance cost. ANOVA test is able to test to see if the means from multiple different samples are significantly similar or different. This means that the averages of different cars in these categories can be compared to the average of MecaCar. If the p value is greater than 0.05, then MecaCar has the same or similar performance within these categories (the null hypothesis). If the p value is less than 0.05, then MecaCar is significantly different in those categories. If it is significant different, then looking at the average of the MecaCar is the next step. If MecaCar's average is either below or above the other averages would show how it is performing against its competitors (below = worse, above = better).
