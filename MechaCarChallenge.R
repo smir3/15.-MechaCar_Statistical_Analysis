@@ -15,5 +15,4 @@ t.test(subset(coil_data,Manufacturing_Lot=="Lot1")$PSI,mu=1500)
 #Subset 2
 t.test(subset(coil_data,Manufacturing_Lot=="Lot2")$PSI,mu=1500)
 #Subset 3
-#Subset 1
 t.test(subset(coil_data,Manufacturing_Lot=="Lot3")$PSI,mu=1500)
