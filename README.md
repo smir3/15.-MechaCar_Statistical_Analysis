@@ -38,7 +38,7 @@ Lot 1 and Lot 2 are well within the 100 PSI variance requirement with variances 
 
 ## T-Tests on Suspension Coils,
 
-![](Images/T-test%20for%20all%20lots.png)
+![](Images/all%20lots.png)
 
 The p value for the this t-test which compares all manufacturing lots is 0.09683 which is above the significance level. 
 
