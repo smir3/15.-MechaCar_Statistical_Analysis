@@ -3,11 +3,11 @@
 ## Background and Purpose:
 AutoRus' newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team's progress. 
 
-The purpose of this analysis is to:
-- perform multiple linear regression to identify which variables in the dataset predict the miles per gallon (mpg) of MechaCar's prototypes
-- collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots 
-- run t-tests to determine if the manufacturing lots are statistically different from the mean population
-- to design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers.
+The purpose of this analysis is to review the production data for insights that may help the manufacturing team by:
+- performing multiple linear regression to identify which variables in the dataset predict the miles per gallon (mpg) of MechaCar's prototypes
+- collecting summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots 
+- running t-tests to determine if the manufacturing lots are statistically different from the mean population
+- designing a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers.
 
 ## Results
 ## Linear Regression to Predict MPG
