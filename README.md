@@ -36,10 +36,11 @@ The variance of the coils is 62.29 PSI, which is well within the 100 PSI varianc
 
 Lot 1 and Lot 2 are well within the 100 PSI variance requirement with variances of 0.98 and 7.47 respectively. However, Lot 3 has a variance of 170.29 which is much larger. A high variance value indicates that the spread of the distribution data is farther from the mean, and so future observations for Lot 3 are less likey to continue following the trend of this data. 
 
-
-Deliverable 3:
+## T-Tests on Suspension Coils,
 
 ![](Images/T-test%20for%20all%20lots.png)
+
+The p value for the this t-test which compares all manufacturing lots is 0.09683 which is above the significance level. 
 
 ![](Images/lot1.png)
 
