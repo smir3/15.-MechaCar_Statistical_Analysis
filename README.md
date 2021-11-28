@@ -15,15 +15,16 @@ Design a statistical study to compare vehicle performance of the MechaCar vehicl
 
 A few weeks after starting his new role, Jeremy is approached by upper management about a special project. AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called on Jeremy and the data analytics team to review the production data for insights that may help the manufacturing team.
 
-Deliverable 1: From the above output we can see that:
+## Results
+Deliverable 1 - Multiple Linear Regression Analysis: 
 
  ![](Images/Multiple%20Linear%20Regression.png)
 
-The vehicle length, and vehicle ground clearance are statistically likely to provide non-random amounts of variance to the model. That is to say, the vehicle length and vehicle ground clearance have a significant impact on miles per gallon on the MechaCar prototype. Conversely, the vehicle weight, spoiler angle, and All Wheel Drive (AWD) have p-Values that indicate a random amount of variance with the dataset.
+The variables which have p-values less than the 0.05% significance level are vehicle length and ground clearance. This indicates that vehicle length and vehicle ground clearance have a significant impact on miles per gallon. The intercept also has a p-value less than 0.05 and so the intercept also accounts for some of the variance in the miles per gallon output. In contrast, the vehicle weight, spoiler alert, and AWD variables have p-values above 0.05 and so this indicates a random amount of variance with the dataset. 
 
-The p-Value for this model, p-Value: 5.35e-11, is much smaller than the assumed significance level of 0.05%. This indicates there is sufficient evidence to reject our null hypothesis, which further indcates that the slope of this linear model is not zero.
+The slope of the linear model is not considered to be zero. This is because the p-value for the model is 5.08e-11 which is much smaller than the significance level of 0.05%. Therefore there is sufficient evidence to reject the null hypothesis that there is no relation between the variables and explaining mpg, and thus the slope of this linear model is not zero.
 
-This linear model has an r-squared value of 0.7149, which means that approximately 71% of all mpg predictions will be determined by this model. Relatively speaking, his multiple regression model does predict mpg of MechaCar prototypes effectively.
+Also, the linear model has an r-squared value of 0.7149, which means that approximately 71% of all mpg predictions will be determined by this model. Considering the relatively high r-squared value, the multiple regression model does predict mpg of MechaCar prototypes effectively.
 
 Deliverable 2:
 ![](Images/total%20summary.png)
