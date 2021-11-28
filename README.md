@@ -40,13 +40,13 @@ Lot 1 and Lot 2 are well within the 100 PSI variance requirement with variances 
 
 ![](Images/all%20lots.png)
 
-The p value for the this t-test which compares all manufacturing lots is 0.09683 which is above the significance level. 
-
 ![](Images/lot1.png)
 
 ![](Images/lot2.png)
 
 ![](Images/lot3.png)
+
+T-tests were performed in order to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch. The p-value for all lots was 0.06, therefore the mean PSI of all manufacturing lots is not statistically different from the population mean. The p-values for lot 1, lot 2, and lot 3 were 1, 0.6, and 0.04 respectively. Hence, the mean PSIs of each individual lot are also not statistically different from the population mean of 1,500 PSI.
 
 Deliverable 4:
 
