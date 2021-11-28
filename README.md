@@ -32,8 +32,6 @@ Lot 1 and Lot 2 are well within the 100 PSI variance requirement with variances 
 
 ## T-Tests on Suspension Coils,
 
-https://github.com/npantfoerder/mechaCar-statistical-analysis
-
 ![](Images/all%20lots.png)
 
 ![](Images/lot1.png)
