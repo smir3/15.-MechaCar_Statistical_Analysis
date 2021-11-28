@@ -1,19 +1,13 @@
 # MechaCar_Statistical_Analysis
 
-Background and Purpose:
+## Background and Purpose:
+AutoRus' newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team's progress. 
 
- Jeremy woring with AutoRUs. Upgrade decision making process. internal collections and knowledge of product, has been selected as primary analyst for the companies' data analytics team. Data analytics team is incharge of performing retrospective analysis of historical data, and analytical verification of current automotive specifications. And study design of future product testing. Automobiel launches successful utilize datan analytics in every decision making process. Anayses contain statistical backbone, quantitative matric and clear interpretation of results to keep upper management happy. Data team has 5 members who only know how to program using r. Jeremy has to learn a new language. I will help jeremy perform statistical tests using the r programming language. provide summary statistics for different variables, visualization for different datasets. And interpretation of statistical test results. Propose own study design, hypothesis and analysis workflow, in order to make autorus manufacturing process better.
-
-A few weeks after starting his new role, Jeremy is approached by upper management about a special project. AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called on Jeremy and the data analytics team to review the production data for insights that may help the manufacturing team.
-
-In this challenge, you’ll help Jeremy and the data analytics team do the following:
-
-Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
-Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
-Run t-tests to determine if the manufacturing lots are statistically different from the mean population
-Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
-
-A few weeks after starting his new role, Jeremy is approached by upper management about a special project. AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called on Jeremy and the data analytics team to review the production data for insights that may help the manufacturing team.
+The purpose of this analysis is to:
+- perform multiple linear regression to identify which variables in the dataset predict the mpg of MechaCar's prototypes
+- collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots 
+- run t-tests to determine if the manufacturing lots are statistically different from the mean population
+- to design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers.
 
 ## Results
 ## Linear Regression to Predict MPG
@@ -37,6 +31,8 @@ The variance of the coils is 62.29 PSI, which is well within the 100 PSI varianc
 Lot 1 and Lot 2 are well within the 100 PSI variance requirement with variances of 0.98 and 7.47 respectively. However, Lot 3 has a variance of 170.29 which is much larger. A high variance value indicates that the spread of the distribution data is farther from the mean, and so future observations for Lot 3 are less likey to continue following the trend of this data. 
 
 ## T-Tests on Suspension Coils,
+
+https://github.com/npantfoerder/mechaCar-statistical-analysis
 
 ![](Images/all%20lots.png)
 
