@@ -16,7 +16,7 @@ Design a statistical study to compare vehicle performance of the MechaCar vehicl
 A few weeks after starting his new role, Jeremy is approached by upper management about a special project. AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called on Jeremy and the data analytics team to review the production data for insights that may help the manufacturing team.
 
 ## Results
-Deliverable 1 - Multiple Linear Regression Analysis: 
+## Linear Regression to Predict MPG
 
  ![](Images/Multiple%20Linear%20Regression.png)
 
@@ -26,21 +26,16 @@ The slope of the linear model is not considered to be zero. This is because the 
 
 Also, the linear model has an r-squared value of 0.7149, which means that approximately 71% of all mpg predictions will be determined by this model. Considering the relatively high r-squared value, the multiple regression model does predict mpg of MechaCar prototypes effectively.
 
-Deliverable 2:
+## Summary Statistics on Suspension Coils
+
 ![](Images/total%20summary.png)
+
+The variance of the coils is 62.29 PSI, which is well within the 100 PSI variance requirement. 
+
 ![](Images/Summary%20by%20lot.png)
 
-With the understanding that the design specifications for the MechaCar suspension coils mandate that the variance of the suspension coils cannot exceed 100 pounds per square inch (PSI) .
+Lot 1 and Lot 2 are well within the 100 PSI variance requirement with variances of 0.98 and 7.47 respectively. However, Lot 3 has a variance of 170.29 which is much larger. A high variance value indicates that the spread of the distribution data is farther from the mean, and so future observations for Lot 3 are less likey to continue following the trend of this data. 
 
-Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
-
-When looking at the entire population of the production lot, the variance of the coils is 62.29 PSI, which is well within the 100 PSI variance requirement.
-
-Similarly, but significantly more consistent, Lot 1 and Lot 2 are well within the 100 PSI variance requirement; with variances of 0.98 and 7.47 respectively. However, it is Lot 3 that is showing much larger variance in performance and consistency, with a variance of 170.29. It is Lot 3 that is disproportionately causing the variance at the full lot level.
-
-Standard deviation is one of the key methods that analysts, portfolio managers, and advisors use to determine risk. When the group of numbers is closer to the mean, the investment is less risky; when the group of numbers is further from the mean, the investment is of greater risk to a potential purchaser.
-
-Securities that are close to their means are seen as less risky, as they are more likely to continue behaving as such. Securities with large trading ranges that tend to spike or change direction are riskier. In investing, risk in itself is not a bad thing, as the riskier the security, the greater potential for a payout.
 
 Deliverable 3:
 
