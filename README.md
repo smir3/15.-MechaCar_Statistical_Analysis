@@ -1,7 +1,7 @@
 # MechaCar_Statistical_Analysis
 
 ## Background and Purpose:
-AutoRus' newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team's progress. 
+A hypothetical company, AutoRus', recently launched its newest prototype, the MechaCar. MechaCar is suffering from production troubles that are blocking the manufacturing team's progress. 
 
 The purpose of this analysis is to review the production data for insights that may help the manufacturing team by:
 - performing multiple linear regression to identify which variables in the dataset predict the miles per gallon (mpg) of MechaCar's prototypes
